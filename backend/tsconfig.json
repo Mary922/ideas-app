@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2023",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "verbatimModuleSyntax": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "types": ["node"],
+  },
+  "include": ["src/**/*", "app.ts","types/custom.d.ts"],
+  "exclude": ["node_modules","dist"]
+}

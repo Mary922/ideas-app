@@ -1,0 +1,65 @@
+# ==================== BACKEND ====================
+
+# Dependencies
+backend/node_modules/
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+
+# Production builds
+backend/dist/
+backend/build/
+
+# Environment variables
+backend/.env
+backend/.env.local
+backend/.env.production
+
+# Logs
+backend/logs
+backend/*.log
+
+# Runtime data
+backend/pids
+backend/*.pid
+backend/*.seed
+backend/*.pid.lock
+
+# ==================== FRONTEND ====================
+
+# Dependencies
+frontend/node_modules/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Production builds
+frontend/dist/
+frontend/build/
+
+# Environment variables
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Vite
+frontend/.vite/
+
+# ==================== COMMON ====================
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.sqlite
+*.db
