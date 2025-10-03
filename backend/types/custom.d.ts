@@ -3,7 +3,8 @@ import { Request } from "express";
 declare global {
     namespace Express {
         interface Request {
-            userId?: string | number
+            userId?: string | number,
+            clientIp?: string
         }
     }
 }
